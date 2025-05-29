@@ -9,20 +9,20 @@ A powerful WordPress blog automation tool that helps you streamline content crea
 - **Automated WordPress Publishing**: Seamlessly publish content to your WordPress blog
 - **Content Management**: Organize and schedule your blog posts efficiently  
 - **User-Friendly Interface**: Modern, intuitive design built with Kivy/KivyMD
-- **Multi-language Support**: Supports Persian/Farsi and English interfaces
+- **Multi-language Support**: Publish posts in multi language 
 - **Secure Authentication**: Safe WordPress credential handling via official REST API
-- **Cross-Platform**: Works on Windows, macOS, and Linux
+- **Cross-Platform**: Works on Windows for now
 
 ## 📋 Requirements
 
 ### System Requirements
-- **Operating System**: Windows 10/11, macOS 10.14+, or Linux Ubuntu 18.04+
-- **RAM**: Minimum 4GB, Recommended 8GB
-- **Storage**: 100MB free disk space
+- **Operating System**: Windows 10/11
+- **RAM**: Minimum 4GB
+- **Storage**: 30MB free disk space
 - **Internet**: Stable internet connection required
 
 ### WordPress Requirements
-- WordPress 5.0 or higher
+- WordPress 5.6 or higher
 - REST API enabled (default in most WordPress installations)
 - Valid WordPress user account with publishing permissions
 
@@ -102,12 +102,6 @@ python main.py
    - Click publish to post to WordPress
    - Monitor publishing status
 
-### Advanced Features
-
-- **Scheduled Publishing**: Set future publish dates
-- **Category Management**: Organize posts by categories
-- **Tag Assignment**: Add relevant tags automatically
-- **Draft Management**: Save and edit drafts locally
 
 ## 🔒 Security & Privacy
 
@@ -164,7 +158,7 @@ python main.py
 ### Automatic Updates
 - The application checks for updates automatically
 - Notifications appear when updates are available
-- Updates can be installed with one click
+- Updates can be installed with one click in about tab
 
 ### Manual Updates
 - Download latest version from [Releases](https://github.com/youzbotdevs/blog-automation/releases)
@@ -175,33 +169,6 @@ python main.py
 
 We welcome contributions from the community!
 
-### How to Contribute
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-### Development Setup
-```bash
-# Clone your fork
-git clone https://github.com/yourusername/blog-automation.git
-cd blog-automation
-
-# Create virtual environment
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-
-# Install development dependencies
-pip install -r requirements-dev.txt
-
-# Run in development mode
-python main.py
-```
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🆘 Support
 
@@ -212,9 +179,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ### FAQ
 
-**Q: Is this free to use?**
-A: Yes, Blog Automation is completely free and open-source.
-
 **Q: Does it work with WordPress.com?**
 A: Yes, but you need a Business plan for REST API access.
 
@@ -222,7 +186,7 @@ A: Yes, but you need a Business plan for REST API access.
 A: Yes, you can configure multiple site connections.
 
 **Q: Is my data safe?**
-A: Yes, all data is stored locally on your device and transmitted securely.
+A: All data is stored locally on your device and transmitted securely.
 
 ## 🏢 About YouzBot
 
@@ -237,28 +201,21 @@ To simplify and automate repetitive tasks in content creation, allowing creators
 
 ## 📊 Statistics
 
-- **Downloads**: 10,000+ users worldwide
+- **Downloads**: 500+ users worldwide
 - **GitHub Stars**: ⭐ Star us if you find this useful!
-- **Languages**: Persian, English (more coming soon)
-- **Platforms**: Windows, macOS, Linux
+- **Languages**: All languages are supported (The app is in English, but you can post blogs in your desired language)
+- **Platforms**: Windows
 
 ## 🗺️ Roadmap
 
-### Upcoming Features
-- [ ] Multiple site management dashboard
-- [ ] Content templates and snippets
-- [ ] Social media integration
-- [ ] Advanced scheduling options
-- [ ] Analytics and reporting
-- [ ] Plugin system for extensions
 
 ### Version History
-- **v2.0.0** (Current) - Major UI overhaul, improved stability
-- **v1.5.0** - Added scheduling features
+- **v2.0.0** (Current) - multiple languages support, optimize posted images, change images format to WebP 
+- **v1.5.0** - Also add the main image to the post
 - **v1.0.0** - Initial release
 
 ---
 
 **Made with ❤️ by [YouzBot](https://youzbot.com)**
 
-*If you find this tool helpful, please consider starring the repository and sharing it with others!*
+*If you find this tool helpful, please start sharing the repository with others!*
