@@ -44,20 +44,6 @@ A powerful WordPress blog automation tool that helps you streamline content crea
    - Find "Blog Automation" in Start Menu or Desktop
    - Run the application
 
-### Alternative Installation Methods
-
-#### From Source
-```bash
-# Clone the repository
-git clone https://github.com/youzbotdevs/blog-automation.git
-cd blog-automation
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run the application
-python main.py
-```
 
 #### Portable Version
 - Extract the ZIP file to any folder
@@ -165,9 +151,6 @@ python main.py
 - Uninstall old version (optional)
 - Install new version
 
-## 🤝 Contributing
-
-We welcome contributions from the community!
 
 
 ## 🆘 Support
